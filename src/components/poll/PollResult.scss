@@ -1,0 +1,28 @@
+.poll-result {
+ display: flex;
+ flex-direction: row;
+
+ align-items: center;
+
+
+ p {
+  margin: 0;
+  margin-right: 20px;
+ }
+
+ div {
+  width: 40vw;
+  height: 100%;
+  margin: 0;
+
+ }
+
+ span.votes {
+  font-size: 1.5em;
+
+  &:after {
+   content: "Votes";
+   font-size: 0.5em;
+  }
+ }
+}

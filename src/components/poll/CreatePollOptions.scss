@@ -1,0 +1,22 @@
+input {
+ padding: 10px;
+ width: 100%;
+}
+
+ul.poll-options {
+ width: 30vw;
+}
+
+.poll-option {
+ display: flex;
+ flex-direction: row;
+ margin: 10px;
+ align-items: center;
+}
+
+input[type=radio]{
+ width: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
